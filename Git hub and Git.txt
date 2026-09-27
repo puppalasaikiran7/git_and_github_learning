@@ -39,7 +39,7 @@ commands
 --> git branch newbranchname ( this will create the new branch apart from the main branch ) 
 --> git switch another branch name ( this will switch from one branch to another branch in the git )
 --> git log ( this will say what are the commits done in that particular branch ) 
---> git remote add origin url.git ( this will create the connection for the remote repo ) 
+--> git remote add origin url.git ( this will create the connection for the remote repo ) ( this is used if the github repo is created for the first time for that specific project )
 --> git push -u origin branchname ( this will push the commits from the local file to github ) 
 
 
