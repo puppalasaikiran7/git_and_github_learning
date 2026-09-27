@@ -7,6 +7,11 @@ Repo or repository is a folder in the github which holds the complete software i
 
 
 commands 
+
+--> gh auth login ( this will login to the github account ) 
+--> gh auth logout ( this will logout of the github account ) 
+--> gh repo create repo_name --public  ( this will create the repo in the git hub ) 
+
 --> git --version ( this will show the version of the git software ) 
 --> cd .. ( this is used to go back from the current folder to the parent folder ) 
 --> cd . ( this will kepp you in the same folder ) 
@@ -25,11 +30,16 @@ commands
 --> touch filename ( this will create the file in the current folder ) 
 --> git add filename ( this will stage the file )
 --> git commit -m message ( this will commit the file ) 
---> git config --global user.email emailid ( this will tell which email address to attach your commit too ) 
---> git config --global user.name username ( this will tell what name to attach to your commit )
+--> git config --global user.email emailid ( this will tell which email address to attach your commit too like which email id made the commit ) 
+--> git config --global user.name username ( this will tell what name to attach to your commit like which person made the commit )
 --> git branch ( this will tell which branch you are in ) 
+--> git branch newbranchname ( this will create the new branch apart from the main branch ) 
+--> git switch another branch name ( this will switch from one branch to another branch in the git )
+
+
+
  
 --> git push ( this will push the commit from local file to remote github ) 
 
 
-
+--> rm -rf .git ( this will remove the .git file which helps in tracking the folder , remove the tracking of the folder ) 
