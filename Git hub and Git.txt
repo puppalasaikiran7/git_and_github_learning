@@ -10,11 +10,14 @@ commands
 
 --> gh auth login ( this will login to the github account ) 
 --> gh auth logout ( this will logout of the github account ) 
---> gh repo create repo_name --public  ( this will create the repo in the git hub ) 
+--> gh repo create repo_name --public  ( this will create the repo in the git hub and also gives the url ) 
+
+
+--> git config --global user.email emailid ( this will tell which email address to attach your commit too like which email id made the commit ) 
+--> git config --global user.name username ( this will tell what name to attach to your commit like which person made the commit )
 
 --> git --version ( this will show the version of the git software ) 
 --> cd .. ( this is used to go back from the current folder to the parent folder ) 
---> cd . ( this will kepp you in the same folder ) 
 --> cd tabkey ( after entering the cd and entering the tab will help in populating the files or folder in the current folder so that we can execute the command ) 
 --> ls (list ) ( list of files and folders present in the current folder )
 --> pwd ( present working directory ) ( prints the path of the exact folder we are in( current folder )  ) 
@@ -26,16 +29,18 @@ commands
 		1) if the folder is being tracked or not 
 		2) which branch you are on ( main or master ) 
 		3) if there are any file that are not tracked those files are shown in red and which are tracked they are shown in green 
+
 --> git init ( this will initialize the tracking of the folder ) 
 --> touch filename ( this will create the file in the current folder ) 
+--> rm filename ( this will remove the file from the current folder ) 
 --> git add filename ( this will stage the file )
 --> git commit -m message ( this will commit the file ) 
---> git config --global user.email emailid ( this will tell which email address to attach your commit too like which email id made the commit ) 
---> git config --global user.name username ( this will tell what name to attach to your commit like which person made the commit )
 --> git branch ( this will tell which branch you are in ) 
 --> git branch newbranchname ( this will create the new branch apart from the main branch ) 
 --> git switch another branch name ( this will switch from one branch to another branch in the git )
-
+--> git log ( this will say what are the commits done in that particular branch ) 
+--> git remote add origin url.git ( this will create the connection for the remote repo ) 
+--> git push -u origin branchname ( this will push the commits from the local file to github ) 
 
 
  
