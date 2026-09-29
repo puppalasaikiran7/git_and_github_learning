@@ -11,6 +11,7 @@ commands
 --> gh auth login ( this will login to the github account ) 
 --> gh auth logout ( this will logout of the github account ) 
 --> gh repo create repo_name --public  ( this will create the repo in the git hub and also gives the url ) 
+--> gh auth status ( this will tell the status of the git hub login ) 
 
 
 --> git config --global user.email emailid ( this will tell which email address to attach your commit too like which email id made the commit ) 
