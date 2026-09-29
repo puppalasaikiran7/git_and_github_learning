@@ -43,13 +43,14 @@ commands
 --> git switch another branch name ( this will switch from one branch to another branch in the git )
 --> git log ( this will say what are the commits done in that particular branch ) 
 --> git log --oneline ( this will give the one line responses of the log's )
---> git remote -v ( this will give you the url of the repo from the github ) 
+--> git remote -v ( this will give you the url links of the repo from the github ) 
 --> git remote add origin url.git ( this will create the connection for the remote repo ) ( this is used if the github repo is created for the first time for that specific project )
 --> git push -u origin branchname ( this will push the commits from the local file to github ) 
 --> git push ( this will push the commit from local file to remote github , this can be used after the github short name is created and used for once like the above command ) 
 --> git merge branchname ( be in the main branch and perform this and the branch that you want to merge will be merged in the main branch ) 
 --> git branch -d branchname ( this will delete the branch ) 
 --> git diff ( this will tell the difference in the file changes from the previous time ) 
+--> git diff --staged ( this will tell the difference in the file changes which are staged from the previous time ) 
 
  
 
