@@ -1,3 +1,4 @@
+
 Git hub and Git 
 
 Theory
@@ -45,9 +46,10 @@ commands
 --> git push ( this will push the commit from local file to remote github , this can be used after the github short name is created and used for once like the above command ) 
 --> git merge branchname ( be in the main branch and perform this and the branch that you want to merge will be merged in the main branch ) 
 --> git branch -d branchname ( this will delete the branch ) 
-
+--> git diff ( this will tell the difference in the file changes from the previous time ) 
  
 
 
 
 --> rm -rf .git ( this will remove the .git file which helps in tracking the folder , remove the tracking of the folder ) 
+
