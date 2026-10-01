@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 Git hub and Git 
 
 Theory
@@ -51,6 +49,8 @@ commands
 --> git branch -d branchname ( this will delete the branch ) 
 --> git diff ( this will tell the difference in the file changes from the previous time ) 
 --> git diff --staged ( this will tell the difference in the file changes which are staged from the previous time ) 
+--> git checkout branchname ( this is used to reverting back to the past commit ) 
+
 
  
 
@@ -58,5 +58,3 @@ commands
 
 --> rm -rf .git ( this will remove the .git file which helps in tracking the folder , remove the tracking of the folder ) 
 
-=======
->>>>>>> gitone
