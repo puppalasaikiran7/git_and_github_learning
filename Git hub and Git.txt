@@ -53,6 +53,10 @@ commands
 --> git rebase branchname ( this is used to temporarily remove the branch and attach it to the main branch ) 
 --> git clone ( this is used to clone the repo ) 
 --> git fetch ( this will just fetch the changes made by other person into our local system but does not merge it with the main branch ) 
+--> git pull ( this will pull the complete repo from the git hub and merge into the existing working directory too ) 
+
+Forking ( this is cloning other person repo into your github account if you want to contribute )
+pull request ( after making changes in your local and pushing it to the git hub there will be a pull request which basically say if you want the author to add the changes that you made to their project then use this ) 
 
 
  
