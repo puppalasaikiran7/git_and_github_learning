@@ -50,6 +50,9 @@ commands
 --> git diff ( this will tell the difference in the file changes from the previous time ) 
 --> git diff --staged ( this will tell the difference in the file changes which are staged from the previous time ) 
 --> git checkout branchname ( this is used to reverting back to the past commit ) 
+--> git rebase branchname ( this is used to temporarily remove the branch and attach it to the main branch ) 
+--> git clone ( this is used to clone the repo ) 
+--> git fetch ( this will just fetch the changes made by other person into our local system but does not merge it with the main branch ) 
 
 
  
