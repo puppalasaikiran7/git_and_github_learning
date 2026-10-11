@@ -38,7 +38,7 @@ commands
 --> git commit -m message ( this will commit the file ) 
 --> git branch ( this will tell which branch you are in ) 
 --> git branch newbranchname ( this will create the new branch apart from the main branch ) 
---> git switch another branch name ( this will switch from one branch to another branch in the git )
+--> git switch another_branch_name ( this will switch from one branch to another branch in the git )
 --> git log ( this will say what are the commits done in that particular branch ) 
 --> git log --oneline ( this will give the one line responses of the log's )
 --> git remote -v ( this will give you the url links of the repo from the github ) 
