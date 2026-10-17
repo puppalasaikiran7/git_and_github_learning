@@ -54,6 +54,8 @@ commands
 --> git clone repo url( this is used to clone the repo ) 
 --> git fetch ( this will just fetch the changes made by other person into our local system but does not merge it with the main branch ) 
 --> git pull ( this will pull the complete repo from the git hub and merge into the existing working directory too ) 
+--> git reset --soft commitid ( this will move back to commit, based on the commit id entered , latest commit will be staged) 
+--> git reset --hard commitid ( this will move back to commit , based on the commit id entered but it will also remove the latest commit made it will not even stage ) 
 
 Forking ( this is cloning other person repo into your github account if you want to contribute )
 pull request ( after making changes in your local and pushing it to the git hub there will be a pull request which basically say if you want the author to add the changes that you made to their project then use this ) 
