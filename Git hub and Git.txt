@@ -35,6 +35,7 @@ commands
 --> touch filename ( this will create the file in the current folder ) 
 --> rm filename ( this will remove the file from the current folder ) 
 --> git add filename ( this will stage the file )
+--> git restore --staged file_name/folder_name ( reverses the staged file or folder )
 --> git commit -m message ( this will commit the file ) 
 --> git branch ( this will tell which branch you are in ) 
 --> git branch newbranchname ( this will create the new branch apart from the main branch ) 
